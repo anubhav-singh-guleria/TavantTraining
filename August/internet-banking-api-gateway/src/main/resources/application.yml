@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: internet-banking-api-gateway
+
+server:
+  port: 8087
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8085/eureka

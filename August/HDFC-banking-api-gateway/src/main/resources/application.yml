@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: HDFC-banking-api-gateway
+
+server:
+  port: 8088
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8085/eureka
