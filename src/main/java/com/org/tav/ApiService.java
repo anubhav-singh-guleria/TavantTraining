@@ -15,7 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Service
 public class ApiService {
     private ApiResponse apiResponse;
-    private String apiKey = "&key=AIzaSyB7-gwN48voDBmzIicxsRat9eHTni1AMOM";
+    private String apiKey = "&key=";
     private String geoCodingApi = "https://maps.googleapis.com/maps/api/geocode/json?address=";
 
     public Boolean validation(String address) throws IOException {
